@@ -1,0 +1,12 @@
+Let player set parameters: days, stress, exam frequency
+Go through each day and randomize events
+Check if stress = 100. End game if so.
+Check if stress is high (70) or low.
+  If low, run "low stress" chances
+  Otherwise, run "high stress" changes
+  For each day of high stress, increase bad event odds by 5%
+    Eliminate good events entirely by 2nd consecutive day of bad stress
+If randomizer is in range of event, run event. Otherwise, present choice UI
+
+Each day, give players choices. Ask for input
+For each day that they are in high stress, their chances of getting a bad event increase by 5%
